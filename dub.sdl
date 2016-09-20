@@ -1,0 +1,7 @@
+name "blogexample"
+description "A simple vibe.d server application."
+authors "deviator"
+copyright "Copyright © 2016, deviator"
+license "MIT"
+dependency "vibe-d" version="~>0.7.30-beta.1"
+versions "VibeDefaultMain"

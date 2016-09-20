@@ -1,0 +1,8 @@
+div
+  form#loginform(action="/login", method="POST")
+    div
+      input(class="form-control",name="email",placeholder="Email",type="email",required)
+    div
+      input(class="form-control",name="pass",placeholder="Пароль",type="password",required)
+    div
+      button(type="submit") Войти

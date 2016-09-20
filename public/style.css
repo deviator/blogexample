@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+}
+
+.mrow {
+  margin: 0 auto;
+  width: 1170px;
+  text-align: left;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background: #e2e2e2;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  border-color: #aaa;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+header .mrow div {
+  display: inline-block;
+  padding-top: 20px;
+}
+
+header .mrow nav {
+  float: right !important;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+header .mrow nav ul {
+  margin: 0;
+  height: 100%;
+}
+
+header .mrow nav ul li {
+  display: inline-block;
+}
+
+header .mrow nav ul li a {
+  text-align: center;
+  display: block;
+  color: #777;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+header .mrow nav ul li a:hover {
+  color: #222;
+  background: #aaa;
+}
+
+header .mrow nav ul li a p {
+  padding: 30px 10px 16px 10px;
+}
+
+#loginform div {
+  display: inline-block;
+}
+
+#loginform div input {
+  padding: 3px;
+}
+
+#loginform div button {
+  padding: 3px;
+}
+
+#postform div {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#postform input {
+  width: 100%;
+}
+
+#postform textarea {
+  width: 100%;
+  height: 100px;
+}
+
+#postform button {
+  display: block;
+  float: right;
+  padding: 3px;
+}
+
+.post {
+  display: block;
+  width: 100%;
+  background: #eee;
+  margin-top: 10px;
+}
+
+.post div {
+  padding: 10px;
+}
+
+.post .title {
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+}
+
+.post .text {
+  border-bottom: 1px solid #ddd;
+}
+
+.post .author {
+  text-align: right;
+}
+
+main {
+  margin-top: 10px;
+}
+
+#error {
+  width: 100%;
+  background: #f88;
+  padding: 2px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer {
+  height: 60px;
+  width: 100%;
+  background: #333;
+  color: #bbb;
+  position: absolute;
+  margin-top: 20px;
+  padding: 0;
+  bottom: inherit;
+  border-top: 2px solid #888;
+}
+
+footer div {
+  padding-top: 10px;
+}

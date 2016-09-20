@@ -1,0 +1,10 @@
+div Мой блог
+
+nav
+  ul
+    li
+      a(href="/")
+        p Главная
+    li
+      a(href="/writepost")
+        p Новый пост

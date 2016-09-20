@@ -1,0 +1,20 @@
+extends layout
+
+block head
+
+  - auto title = "Главная";
+
+block error
+  - if (error.length)
+    div#error #{error}
+
+block main
+
+  - if (!settings.loggedIn)
+    include logindesk
+  - else
+    - foreach(post; posts)
+      div.post
+        div.title #{post.title}
+        div.text #{post.text}
+        div.author #{post.author}

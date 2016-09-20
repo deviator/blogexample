@@ -1,0 +1,17 @@
+extends layout
+
+block head
+  - auto title = "Новый пост";
+
+block main
+  div Новый пост от #{email}
+
+  form#postform(action="/posts", method="POST")
+    div Заголовок
+      input(class="from-control", name="title")
+
+    div Текст
+      textarea(class="form-contorl", name="text")
+
+    div
+      button(type="submit") Опубликовать

@@ -1,0 +1,26 @@
+doctype html
+
+html
+  head
+    link(rel="stylesheet", href="style.css")
+    // вставляем блок head
+    block head
+    // печатаем значение переменной title в соответствующий тег
+    title #{title}
+  body
+
+    header
+      .mrow
+        include header
+
+    block error
+
+    main
+      .mrow
+        // вставляем блок main
+        block main
+
+    footer
+      .mrow
+        // включаем views/footer.dt
+        include footer
